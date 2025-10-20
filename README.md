@@ -64,3 +64,6 @@ bun run build
 # Deploy to Cloudflare
 bun run deploy
 ```
+
+## Screenshot 
+![Alt text](./screenshots/image.png)
