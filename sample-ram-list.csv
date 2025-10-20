@@ -1,0 +1,9 @@
+Type,Vendor,RAM Speed,Supported Speed,Size,Module,Chip,SS/DS,XMP,EXPO,DIMM Socket Support,OC,BIOS,Note
+DDR5,Kingston,5200,5200,8GB,KF552C36BBE-8,Hynix A-Die,SS,Yes,No,288-pin,Yes,Latest,High performance
+DDR5,Corsair,5600,5600,16GB,CMK32GX5M2B5600C36,Samsung V-Die,DS,Yes,Yes,288-pin,Yes,Latest,Excellent overclocking
+DDR5,G.Skill,6000,6000,32GB,F5-6000J3636F16GX2-TZ5RK,Hynix M-Die,DS,Yes,Yes,288-pin,Yes,Latest,Premium kit
+DDR5,TeamGroup,4800,4800,16GB,TF3D516G4800HC34CBK,Micron A-Die,SS,Yes,No,288-pin,No,Latest,Budget option
+DDR5,Patriot,5200,5200,32GB,PVS532G520C36K,Samsung E-Die,DS,Yes,Yes,288-pin,Yes,Latest,Good value
+DDR5,Crucial,4800,4800,16GB,CT16G48C40U5,Micron B-Die,SS,Yes,No,288-pin,No,Latest,Reliable
+DDR5,ADATA,5600,5600,16GB,AX5U5600C3616G-DCLARBK,Hynix C-Die,SS,Yes,Yes,288-pin,Yes,Latest,Good performance
+DDR5,Silicon Power,5200,5200,32GB,SP032G56C22FSE,Samsung C-Die,DS,Yes,No,288-pin,No,Latest,Value option

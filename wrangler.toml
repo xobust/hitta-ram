@@ -1,0 +1,19 @@
+name = "hitta-ram"
+main = "worker/index.ts"
+compatibility_date = "2024-01-01"
+
+[env.production]
+name = "hitta-ram"
+
+[env.staging]
+name = "hitta-ram-staging"
+
+# Environment variables
+[vars]
+NODE_ENV = "production"
+
+# KV namespaces for caching
+[[kv_namespaces]]
+binding = "CACHE"
+id = "your-kv-namespace-id"
+preview_id = "your-preview-kv-namespace-id"

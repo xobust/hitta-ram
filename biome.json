@@ -1,0 +1,31 @@
+{
+  "$schema": "https://biomejs.dev/schemas/2.2.6/schema.json",
+  "files": {
+    "includes": [
+      "app/**/*.{ts,tsx,js,md}",
+      "components/**/*.{ts,tsx,js,md}",
+      "lib/**/*.{ts,js}",
+      "types/**/*.{ts,js}",
+      "worker/**/*.{ts,js}",
+      "package.json",
+      "biome.json",
+      "tsconfig.json",
+      "postcss.config.js"
+    ],
+    "ignoreUnknown": true,
+    "maxSize": 1048576
+  },
+  "formatter": {
+    "indentStyle": "space",
+    "indentWidth": 2,
+    "lineWidth": 100
+  },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": true
+    }
+  }
+}
+
+

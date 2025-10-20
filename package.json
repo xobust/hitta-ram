@@ -1,0 +1,37 @@
+{
+  "name": "hitta-ram",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "bun run next dev",
+    "build": "bun run next build",
+    "start": "bun run next start",
+    "lint": "biome check .",
+    "format": "biome format --write .",
+    "wrangler": "bun run wrangler",
+    "deploy": "bun run wrangler deploy",
+    "deploy:staging": "bun run wrangler deploy --env staging"
+  },
+  "dependencies": {
+    "@cloudflare/workers-types": "^4.20251011.0",
+    "@tanstack/react-table": "^8.21.3",
+    "lucide-react": "^0.546.0",
+    "next": "^15.5.6",
+    "node-cache": "^5.1.2",
+    "papaparse": "^5.5.3",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.2.6",
+    "@types/node": "^24.8.1",
+    "@types/papaparse": "^5.3.16",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.0",
+    "typescript": "^5.9.3",
+    "wrangler": "^3.78.12"
+  }
+}
